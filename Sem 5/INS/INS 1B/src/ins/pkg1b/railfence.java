@@ -13,7 +13,7 @@ package ins.pkg1b;
 public class railfence {
 public static void main(String args[])
 {
-String input = "ismile";
+String input = "Vaibhav";
 String output = "";
 int len = input.length(),flag = 0;
 System.out.println("Input String : " + input);
