@@ -1,0 +1,16 @@
+D:\Game programming\Prac triangle\Prac triangle\obj\x86\Debug\Prac triangle.csproj.AssemblyReference.cache
+D:\Game programming\Prac triangle\Prac triangle\obj\x86\Debug\DxPrac1.Form1.resources
+D:\Game programming\Prac triangle\Prac triangle\obj\x86\Debug\Prac_triangle.Properties.Resources.resources
+D:\Game programming\Prac triangle\Prac triangle\obj\x86\Debug\Prac triangle.csproj.GenerateResource.cache
+D:\Game programming\Prac triangle\Prac triangle\obj\x86\Debug\Prac triangle.csproj.CoreCompileInputs.cache
+D:\Game programming\Prac triangle\Prac triangle\bin\x86\Debug\Prac triangle.exe
+D:\Game programming\Prac triangle\Prac triangle\bin\x86\Debug\Prac triangle.pdb
+D:\Game programming\Prac triangle\Prac triangle\bin\x86\Debug\Microsoft.DirectX.Direct3D.dll
+D:\Game programming\Prac triangle\Prac triangle\bin\x86\Debug\Microsoft.DirectX.Direct3DX.dll
+D:\Game programming\Prac triangle\Prac triangle\bin\x86\Debug\Microsoft.DirectX.dll
+D:\Game programming\Prac triangle\Prac triangle\bin\x86\Debug\Microsoft.DirectX.xml
+D:\Game programming\Prac triangle\Prac triangle\bin\x86\Debug\Microsoft.DirectX.Direct3D.xml
+D:\Game programming\Prac triangle\Prac triangle\bin\x86\Debug\Microsoft.DirectX.Direct3DX.xml
+D:\Game programming\Prac triangle\Prac triangle\obj\x86\Debug\Prac triangle.csproj.CopyComplete
+D:\Game programming\Prac triangle\Prac triangle\obj\x86\Debug\Prac triangle.exe
+D:\Game programming\Prac triangle\Prac triangle\obj\x86\Debug\Prac triangle.pdb
