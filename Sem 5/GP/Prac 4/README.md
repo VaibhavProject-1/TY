@@ -1,5 +1,5 @@
 
-# Inifnite scrolling background
+# Infinite scrolling background
 
 This is a practical that was performed to make the infinite scrolling background
 
