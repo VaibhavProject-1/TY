@@ -32,6 +32,10 @@ score = 0
 # Clock for controlling frame rate
 clock = pygame.time.Clock()
 
+# Initialize score increment cooldown
+score_increment_cooldown = 60  # Change this value to adjust the rate of score increment
+current_cooldown = 0
+
 # Main game loop
 running = True
 while running:
@@ -55,7 +59,7 @@ while running:
     if random.randint(1, 100) <= 2:
         enemy_x = random.randint(enemy_radius, width - enemy_radius)
         enemy = pygame.Rect(enemy_x - enemy_radius, 0, enemy_radius * 2,
-                           enemy_radius * 2)
+                            enemy_radius * 2)
         enemies.append(enemy)
 
     # Move enemies
@@ -63,6 +67,13 @@ while running:
         enemy.y += 5
         if enemy.top > height:
             enemies.remove(enemy)
+        else:
+            # Increment the score when the character successfully dodges an enemy
+            if current_cooldown == 0:
+                score += 1
+                current_cooldown = score_increment_cooldown
+            else:
+                current_cooldown -= 1
 
     # Move character
     keys = pygame.key.get_pressed()
@@ -76,8 +87,8 @@ while running:
         for enemy in enemies:
             if bullet.colliderect(enemy):
                 score += 1
-                bullets.remove(bullet)
                 enemies.remove(enemy)
+                bullets.remove(bullet)
 
     # Check for character collision with enemies
     for enemy in enemies:
